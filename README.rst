@@ -1,5 +1,5 @@
-Thing
-=====
+This is a Thing
+===============
 
 Content Types
 -------------
@@ -9,4 +9,9 @@ Content Types
 Behaviors
 ---------
 
-- Do stuff
+- Do Stuff
+
+Credits
+-------
+
+Open Iconic — www.useiconic.com/open
