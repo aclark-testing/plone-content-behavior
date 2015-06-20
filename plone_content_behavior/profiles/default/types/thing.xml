@@ -1,6 +1,6 @@
 <object name="thing">
     <property name="behaviors">
-        <element value="plone_content_behavior.interfaces.IDoStuff" />
+        <element value="plone_content_behavior.behaviors.IDoStuff" />
     </property>
     <property name="description">This is a Thing</property>
     <property name="klass">plone.dexterity.content.Item</property>

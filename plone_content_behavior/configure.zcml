@@ -7,6 +7,6 @@
     <genericsetup:registerProfile directory="profiles/default" name="default"
         provides="Products.GenericSetup.interfaces.EXTENSION" />
 
-    <plone:behavior title="Do Stuff" provides=".behaviors.DoStuff" />
+    <plone:behavior title="Do Stuff" provides=".behaviors.IDoStuff" />
 
 </configure>
