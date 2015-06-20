@@ -1,0 +1,10 @@
+<object name="thing">
+    <property name="behaviors">
+        <element value="plone_content_behavior.interfaces.IDoStuff" />
+    </property>
+    <property name="description">This is a Thing</property>
+    <property name="klass">plone.dexterity.content.Item</property>
+    <property name="schema">plone_content_behavior.content.Thing</property>
+    <property name="title">Thing</property>
+    <property name="icon_expr">string:${portal_url}/++resource++plone_content_behavior/thing.png</property>
+</object>
