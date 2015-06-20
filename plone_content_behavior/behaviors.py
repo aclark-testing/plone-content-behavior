@@ -1,6 +1,6 @@
-from zope.interface import Interface
+from .interfaces import IDoStuff
 
 
-class DoStuff(Interface):
+class DoStuff(IDoStuff):
     """
     """
