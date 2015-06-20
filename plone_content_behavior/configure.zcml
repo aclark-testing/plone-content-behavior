@@ -1,8 +1,12 @@
 <configure xmlns="http://namespaces.zope.org/zope" xmlns:browser="http://namespaces.zope.org/browser"
-    xmlns:genericsetup="http://namespaces.zope.org/genericsetup">
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    xmlns:plone="http://namespaces.plone.org/plone">
+
+    <browser:resourceDirectory name="plone_content_behavior" directory="static" />
+
     <genericsetup:registerProfile directory="profiles/default" name="default"
         provides="Products.GenericSetup.interfaces.EXTENSION" />
 
-    <browser:resourceDirectory name="plone_content_thing" directory="static" />
+    <plone:behavior title="Do Stuff" provides=".behaviors.DoStuff" />
 
 </configure>
